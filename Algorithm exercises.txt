@@ -1,0 +1,49 @@
+1)Calculate the Sum of Natural Numbers Write an algorithm that calculates the sum of all natural numbers from 1 to a given number n.
+
+Start
+Get input n from the user
+Initialize variable sum = 0
+Use a loop from 1 to n:
+Add each number to sum
+Display the final sum
+End
+
+2)Check for Prime Number Write an algorithm that checks if a given number n is a prime number or not.
+
+Start
+Get input n from the user
+If n ≤ 1, print "Not Prime" and stop
+Loop from 2 to √n:
+If n is divisible by any number in this range, print "Not Prime" and stop
+If no divisors are found, print "Prime Number"
+End
+
+3)Find the Maximum of Three Numbers Write an algorithm that takes three numbers as input and finds the largest of them.
+Start
+2️Get a list of numbers from the user.
+Convert the input into a list of integers.
+Sort the list in descending order (largest to smallest).
+Select the first three numbers from the sorted list.
+Print the top three maximum numbers.
+End
+
+Else we can use MAX to find a answer
+
+4)Factorial Calculation Write an algorithm that calculates the factorial of a number n.
+
+Start
+Get input n from the user
+If n = 0 or n = 1, return 1 (since 0! = 1! = 1)
+Initialize factorial = 1
+Loop from 1 to n:
+Multiply factorial by the current number
+Print the factorial
+End
+
+5) Check if a Number is Even or Odd Write an algorithm that checks if a given number n is even or odd.
+
+Start
+Get input n from the user
+If n % 2 == 0, print "Even"
+Else, print "Odd"
+End
